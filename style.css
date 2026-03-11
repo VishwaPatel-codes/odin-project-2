@@ -3,55 +3,82 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width: 2000px;
+    font-family: "pixelify Sans";
 }
-.hero-bar {
-    background-color: aquamarine;
-}
+
 .body-1 {
-    background-color: rgb(241, 241, 85);
+    background-color: #1F2937;
     display: flex;
     justify-content: space-between;
+    padding: 150px;
+    max-width: 2000px;
+    align-items: center;
+    gap: 100px;
 }
 nav {
-    background-color: blue;
+    background-color: #1F2937;
     display: flex;
     justify-content: space-between;
+    padding: 50px;
+    max-width: 2000px;
+    font-size: 24px;
 } 
 .links {
     display: flex;
-    background-color: aquamarine;
+    color: #E5E7EB;
+    font-size: 28px;
 }
 .links ul {
     display: flex;
     gap: 30px;
-
+    list-style-type: none;
 }
 .logo {
     color: aliceblue;
+    font-size: 28px;
 }
 
 .side-text {
     display: flex;
     align-content: flex-start;
     flex-direction: column;
+    flex: 1;
+    gap: 20px;
+    flex-shrink: 1;
 }
 .img-1 {
     display: flex;
     align-content: flex-end;
-    height: 200px;
-    width: 200px;
-    border: 2px solid black;
     flex: 1;
+    max-width:700px;
+
+
 }
-.side-text{
-    flex: 1;
+.img-1 img {
+    width: 100%;
 }
 .title-1 {
-    color: aliceblue;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
 }
 .para-1 {
-    color: aliceblue;
+    color: #E5E7EB;
+    font-size:28px;
 }
 .signup-button{
+    font-family: "pixelify Sans";
+    background-color: #3882f6;
+    border: solid #3882f6;
+    padding: 10px;
+    width: 180px;
+    border-radius: 8px;
+    font-size: 24px;
     color: aliceblue;
+}
+.signup-button:hover{
+    cursor: pointer;
+    background-color: #013485;
+    border: #013485;
 }
