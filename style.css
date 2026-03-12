@@ -4,7 +4,7 @@ body{
     justify-content: center;
     width: 100%;
     max-width: 2000px;
-    font-family: "pixelify Sans";
+    font-family: "Pixelify Sans";
 }
 
 .body-1 {
@@ -12,7 +12,7 @@ body{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 150px;
+    padding: 80px;
     align-items: center;
     gap: 50px;
 }
@@ -56,7 +56,7 @@ nav {
     width: 100%;
 }
 .title-1 {
-    font-size: 48px;
+    font-size: 43px;
     font-weight: 900;
     color: #F9FAF8;
 }
@@ -65,7 +65,7 @@ nav {
     font-size:28px;
 }
 .signup-button{
-    font-family: "pixelify Sans";
+    font-family: "Pixelify Sans";
     background-color: #3882f6;
     border: solid #3882f6;
     padding: 10px;
@@ -121,7 +121,51 @@ nav {
     background-color: #7497c7;
 }
 .quote {
+    color: #565657;
     font-weight: bold;
     font-size: 35px;   
     padding: 100px;
+}
+.writer{
+    margin-top: 30px;
+}
+.forth-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(166, 199, 199);
+    padding: 20px;
+}
+.blue-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #4d83cf;
+    gap: 50px;
+    padding: 40px;
+    border-radius: 10px;
+}
+.side-text-2 {
+    font-size: 20px;
+}
+
+.button2 {
+    background-color: #013485;
+    font-size: 20px;
+    width: 120px;
+    padding: 10px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid #95abce;
+    color: antiquewhite;    
+    font-family: "Pixelify Sans";
+}
+footer {
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    background-color: #1F2937;
 }
